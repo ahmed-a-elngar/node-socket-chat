@@ -1,0 +1,99 @@
+#sidebar, .main-panel{
+    min-height: 100vh !important;
+}
+.card.project-card{
+    max-height: 300px !important;
+}
+.card.project-card img{
+    max-height: 170px !important;
+}
+.card.project-card .card-text{
+    overflow: hidden;
+    max-height: 40px !important;
+}
+.dropdown-menu.custom .dropdown-item{
+    padding: 4px 8px;
+}
+.dropdown-menu.custom .preview-item-content{
+    margin-top: 12px;
+}
+.dropdown-menu.custom .dropdown-item:hover{
+    color: #ffffffbf;
+}
+.dropdown-menu.custom .dropdown-divider{
+    margin: 2px 0px 2px;
+}
+#messanger{
+    height: 500px;
+    overflow: hidden;
+}
+#messanger_body{
+    height: 405px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+#messanger_body::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+#messanger_body .message{
+    max-width: 400px;
+    padding: 8px 16px;
+    border: 1px solid;
+    height: fit-content;
+    color: white;
+    border-radius: 16px;
+    margin-bottom: 6px;
+}
+#messanger_body .message.sender{
+    background-color: #0090e7;
+    border-color: #0090e7;
+    float: right;
+    margin-right: 4px;
+}
+#messanger_body .message.receiver{
+    background-color: #0c0c14;
+    border-color: #0c0c14;
+    float:left;
+    margin-left: 4px;
+}
+ul.rooms-list {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 41px;
+    padding-top: 8px;
+    overflow-y: auto;
+    width: 100%;
+    height: 445px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    margin-bottom: 0px;
+}
+ul.rooms-list::-webkit-scrollbar{
+    width: 2px;
+    /* height: 0px; */
+}
+ul.rooms-list li{
+    display: block;
+}
+ul.rooms-list li a{
+    text-decoration: none;
+    color: white;
+}
+#subscripers #subscripers_search_reasult{
+    max-height: 200px;
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+#subscripers #subscripers_search_reasult::-webkit-scrollbar{
+    width: 2px;
+    /* height: 0px; */
+}
+#subscripers .subscriper_container p{
+    display: inline-block;
+}
+.hidden{
+    display: none;
+}

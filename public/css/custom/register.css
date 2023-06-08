@@ -1,0 +1,13 @@
+.wizard > .steps > ul > li {
+    width: 33%;
+}
+
+.input_error{
+    border: 1px solid pink !important;
+}
+
+span.error{
+    margin: 4px 0px;
+    color: pink;
+    font-size: 12px;
+}
